@@ -52,7 +52,7 @@ const Cast = () => {
                 <Info>
                   <p>{name}</p>
                   <p>
-                    <b>Character:</b>
+                    <b>Character: </b>
                     {character}
                   </p>
                 </Info>
