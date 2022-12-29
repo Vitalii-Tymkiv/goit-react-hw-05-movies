@@ -34,3 +34,9 @@ export const Image = styled.img`
 export const Info = styled.div`
   padding: 10px;
 `;
+
+export const NoCast = styled.p`
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 18px;
+`;

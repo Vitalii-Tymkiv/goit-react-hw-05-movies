@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Error } from '../Error/Error';
-import { List, ListItem, Image, Info } from './Cast.styled';
+import { List, ListItem, Image, Info, NoCast } from './Cast.styled';
 import { getMoviesCredit } from 'moviesAPI';
 import brokenPhoto from '../../images/broken_img.png';
 import { scroll, scrollOptions } from '../../Scroll';
@@ -61,7 +61,7 @@ const Cast = () => {
           })}
         </List>
       ) : (
-        <p>Files about actors of this film are empty!</p>
+        <NoCast>Files about actors of this film are empty!</NoCast>
       )}
     </>
   );
